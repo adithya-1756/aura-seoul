@@ -1,4 +1,6 @@
-const API_BASE = '/api';
+
+const API_BASE = 'https://aura-seoul.onrender.com/api';
+
 
 function getGuestId(): string {
   let guestId = localStorage.getItem('aura_guest_id');
