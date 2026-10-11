@@ -1,0 +1,21 @@
+{
+  "name": "aura-seoul-monorepo",
+  "version": "1.0.0",
+  "description": "Aura Seoul - Complete Full-Stack Fashion E-Commerce Platform",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "server": "node backend/src/server.js",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "fashion",
+    "ecommerce",
+    "korean-streetwear",
+    "y2k",
+    "react",
+    "express"
+  ],
+  "author": "Aura Seoul Studio",
+  "license": "MIT"
+}
